@@ -1,0 +1,18 @@
+server:
+  port: 8001
+spring:
+  config:
+    import: api.yml
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/ecommerce?authSource=admin
+      auto-index-creation: true
+feign:
+  httpclient:
+    disableSslValidation: true
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

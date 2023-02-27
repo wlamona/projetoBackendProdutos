@@ -1,0 +1,19 @@
+api:
+  produto:
+    value: API backend do projeto fullstack.
+    list:
+      summary: Lista geral dos produtos.
+      description: Retorna a lista dos produtos.
+    delete:
+      summary: Deleta produto selecionado
+      description: Deleta pelo codigo do produto
+    update:
+      summary: Atualisa produto
+      description: Atualiza o produto pelo codigo
+    save:
+      summary: Insere novo produto
+      description: Insere 
+  api:
+  defaultPage: 0
+  defaultPageSize: 15
+  maxPageSize: 200
